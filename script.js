@@ -1,10 +1,10 @@
-let numbers = [-3, 16, 8, -34, 65, 120, 42, 15, 7, -4, -7, 3, 46, 26, 83];
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-for (let i=numbers.length-1; i>0; i--){
-    if(numbers[i]>0 && numbers[i]<10){
-        console.log(numbers[i]);
-    }
+for (let i = 0; i < num.length; i++){
+            console.log(num[i]);
 }
+
+let numbers = [-3, 16, 8, -34, 65, 120, 42, 15, 7, -4, -7, 3, 46, 26, 83];
 
 for(let a = 0; a < numbers.length; a++){
     if(numbers[a]>=15){
